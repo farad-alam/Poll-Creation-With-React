@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
-import Sidebar from "./pages/sidebar";
-import Content from "./pages/content";
+import Sidebar from "./pages/Sidebar";
+import Content from "./pages/Content";
 
 function App() {
   let poll = {
