@@ -1,0 +1,58 @@
+[
+    {
+      "id": "1",
+      "title": "Best Programming Language in 2025",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error provident minima iste aliquid suscipit quaerat ut repellat magnam autem.",
+      "options": [
+        { "title": "Python", "vote": 0 },
+        { "title": "C++", "vote": 0 },
+        { "title": "JavaScript", "vote": 0 },
+        { "title": "Go", "vote": 0 }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Best Frontend Framework in 2025",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error provident minima iste aliquid suscipit quaerat ut repellat magnam autem.",
+      "options": [
+        { "title": "React", "vote": 0 },
+        { "title": "Vue", "vote": 0 },
+        { "title": "Angular", "vote": 0 },
+        { "title": "Svelte", "vote": 0 }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Most Popular Cloud Provider",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error provident minima iste aliquid suscipit quaerat ut repellat magnam autem.",
+      "options": [
+        { "title": "AWS", "vote": 0 },
+        { "title": "Azure", "vote": 0 },
+        { "title": "Google Cloud", "vote": 0 },
+        { "title": "DigitalOcean", "vote": 0 }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Best Database for Scalable Applications",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error provident minima iste aliquid suscipit quaerat ut repellat magnam autem.",
+      "options": [
+        { "title": "PostgreSQL", "vote": 0 },
+        { "title": "MySQL", "vote": 0 },
+        { "title": "MongoDB", "vote": 0 },
+        { "title": "Firebase", "vote": 0 }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Most In-Demand Tech Skill in 2025",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error provident minima iste aliquid suscipit quaerat ut repellat magnam autem.",
+      "options": [
+        { "title": "AI/ML", "vote": 0 },
+        { "title": "Cybersecurity", "vote": 0 },
+        { "title": "Blockchain", "vote": 0 },
+        { "title": "Cloud Computing", "vote": 0 }
+      ]
+    }
+  ]
+  

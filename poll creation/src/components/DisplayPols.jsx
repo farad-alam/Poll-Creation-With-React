@@ -1,9 +1,9 @@
 import React from 'react'
 
 function DisplayPols(props) {
-    const {title} = props
+    const {title, onClick} = props
   return (
-    <p className="text-[14px] bg-slate-200 rounded px-1 cursor-pointer">
+    <p onClick={onClick} className="text-[14px] bg-slate-200 rounded px-1 cursor-pointer">
       {title}
     </p>
   );

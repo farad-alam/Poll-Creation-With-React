@@ -5,23 +5,26 @@ import Button from "../components/Button";
 
 function Poll(props) {
   const { pollDetails } = props;
-  const { title } = pollDetails;
+  const { title,description,options } = pollDetails;
   return (
     <div id="poll">
       <h2 id="title" className="font-bold">
         {title}
       </h2>
       <p className="text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-        error provident minima iste aliquid suscipit quaerat ut repellat magnam
-        autem.
+        {description}
       </p>
       <h3 className="mt-8 font-bold">Options:</h3>
       <div class="form-control space-y-2">
-        <PollOption title="Python" />
+        {
+          options.map(option => {
+           return <PollOption title={option.title} />
+          })
+        }
+        {/* <PollOption title="Python" />
         <PollOption title="C++" />
         <PollOption title="Java" />
-        <PollOption title="Go" />
+        <PollOption title="Go" /> */}
       </div>
       <h3 className="mt-5 text-lg">Submit Your Answer:</h3>
       <hr />

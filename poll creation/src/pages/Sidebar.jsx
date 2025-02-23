@@ -2,7 +2,8 @@ import React from "react";
 import DisplayPols from "../components/DisplayPols";
 import CreatePoll from "./CreatePoll";
 
-function Sidebar() {
+function Sidebar(props) {
+  let {pollData,handlePollDisplay} = props
     let opnenPollCreateForm = (e)=>{
         document.getElementById("create-poll").showModal();
     }
@@ -22,15 +23,9 @@ function Sidebar() {
       <h2 className="text-base-100 text-2xl mt-8">List Of Polls</h2>
       <hr />
       <div id="polls" className="mt-4 space-y-1">
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
-        <DisplayPols title="Most Popular Programing..." />
+        {
+          pollData.map((poll,index) => <DisplayPols key={poll.id} title={poll.title} onClick={() => handlePollDisplay(index)}/>)
+        }
       </div>
 
       <CreatePoll />
