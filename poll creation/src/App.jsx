@@ -5,17 +5,12 @@ import Content from "./pages/Content";
 import pollData from "./poll.json"
 
 function App() {
-  // const [displayPoll, setDisplayPoll] = useState(null)
-  // const handlePollDisplay = (index) =>{
-  //   console.log("Clicked")
-  //   setDisplayPoll(pollData(index))
-  // }
-  // ✅ Use state to store the selected poll
+
   const [displayPoll, setDisplayPoll] = useState(null);
 
   const handlePollDisplay = (index) => {
     console.log("Clicked", index);
-    setDisplayPoll(pollData[index]); // ✅ Updating state triggers a re-render
+    setDisplayPoll(pollData[index]); 
   };
   return (
     <>

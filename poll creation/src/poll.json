@@ -4,9 +4,9 @@
       "title": "Best Programming Language in 2025",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error provident minima iste aliquid suscipit quaerat ut repellat magnam autem.",
       "options": [
-        { "title": "Python", "vote": 0 },
+        { "title": "Python", "vote": 3 },
         { "title": "C++", "vote": 0 },
-        { "title": "JavaScript", "vote": 0 },
+        { "title": "JavaScript", "vote": 7 },
         { "title": "Go", "vote": 0 }
       ]
     },
